@@ -7,15 +7,23 @@
     <script src="../javascrpit/jquery.js"></script>
     <link rel="stylesheet" href="../css/navigationsbar.css">
     <link rel="stylesheet" href="../css/primary_design.css">
+    <script src="../javascrpit/readFiles.js"></script>
     <title>Uddannelse</title>
 </head>
 <body>
     <div id="navbar"></div>
+    <div class="info-area">
+        <h1>Uddannelse</h1>
+        <p id="info"></p>
+    </div>
     <script>
         $(function() {
             $("#navbar").load("navbar.html");
         });
+        $(document).ready(function() {
+            readTextFile("../bin/uddannelse.txt", "info")
+        })
     </script>
-    <p></p>
+    
 </body>
 </html>
