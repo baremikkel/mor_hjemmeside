@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,12 +7,12 @@
     <link rel="stylesheet" href="../css/navigationsbar.css">
     <link rel="stylesheet" href="../css/primary_design.css">
     <script src="../javascrpit/readFiles.js"></script>
-    <title>Uddannelse</title>
+    <title>Certifikater</title>
 </head>
 <body>
     <div id="navbar"></div>
     <div class="info-area">
-        <h1>Uddannelse</h1>
+        <h1>Certifikater</h1>
         <p id="info"></p>
     </div>
     <script>
@@ -21,9 +20,8 @@
             $("#navbar").load("navbar.html");
         });
         $(document).ready(function() {
-            readTextFile("../bin/uddannelse.txt", "info")
+            readTextFile("../bin/jeg_tilbyder.txt", "info")
         })
     </script>
-    
 </body>
 </html>

@@ -4,6 +4,11 @@ body{
 .info-area{
     width: 50%;
     margin: auto;
+    background-color: rgb(241, 147, 147,0.2);
+}
+.info-area > *{
+    padding-left: 2%;
+
 }
 h1{
     margin: 1%;
