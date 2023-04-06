@@ -1,0 +1,10 @@
+img {
+    max-width: 60%;
+    max-height: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#brain {
+    rotate: 90deg;
+}

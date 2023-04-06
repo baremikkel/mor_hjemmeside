@@ -8,8 +8,15 @@ body{
 }
 .info-area > *{
     padding-left: 2%;
+    padding-bottom: 1%;
 
 }
 h1{
     margin: 1%;
+}
+h2{
+    margin-bottom: 0%;
+}
+.info-area p{
+    margin-top: 0%;
 }
