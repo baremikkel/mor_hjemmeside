@@ -16,11 +16,14 @@
         $(function() {
             $("#navbar").load("navbar.html");
         });
+        $(document).ready(function(){
+            readTextFile("../bin/about_me.txt", "about_me")
+        })
     </script>
     
     <div class="info-area">
       <h1>Om mig</h1>
-      <p></p><!-- skriv tekst her brug-->  
+      <p id="about_me"></p>
     </div>
     
 </body>
