@@ -4,7 +4,33 @@
     background-color: rgb(165, 193, 236);
 }
 
-.navbar li {
+@media screen and (max-width: 768px) {
+    .collapsible {
+        background-color: #777;
+        color: white;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      
+      .active, .collapsible:hover {
+        background-color: #555;
+      }
+      
+      .content {
+        padding: 0 18px;
+        display: none;
+        overflow: hidden;
+        background-color: #f1f1f1;
+      }
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar li {
     display: inline;
     float: left;
     padding: 1% 2%;
@@ -17,8 +43,9 @@
 .navbar li a {
     display: block;
     text-align: center;
-    font-size: 25px;
     font-weight: bold;
     text-decoration: none;
     color: black;
 }
+}
+

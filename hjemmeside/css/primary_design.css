@@ -1,10 +1,26 @@
-body{
+body {
     margin: 0%;
-}
+    background-color: white;
+  }
+  
+  /* tablet styles */
+  @media screen and (min-width: 768px) {
+      body {
+          font-size: 20px;
+      }
+  }
+  
+  
+  /* desktop styles */
+  @media screen and (min-width: 1024px) {
+      body {
+          font-size: 24px;
+      }
+  }
+
 .info-area{
-    width: 50%;
+   /* width: 50%;*/
     margin: auto;
-    background-color: rgb(241, 147, 147,0.2);
 }
 .info-area > *{
     padding-left: 2%;
@@ -19,4 +35,35 @@ h2{
 }
 .info-area p{
     margin-top: 0%;
+}
+
+#sections {
+    display: grid;
+    grid-template-columns: 65% 25% 10%;
+    padding-right: 0.5%;
+}
+
+#om_mig {
+    background-color: rgb(252, 115, 115);
+}
+
+#jeg_tilbyder {
+    background-color: rgb(248, 248, 121);
+}
+
+#certifikater {
+    background-color: rgb(153, 255, 150);
+}
+
+#anbefalinger {
+    background-color: rgb(180, 252, 214);
+}
+
+#kontakt {
+    background-color: rgb(139, 139, 255);
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
