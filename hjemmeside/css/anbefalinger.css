@@ -10,3 +10,12 @@ p{
     padding-right: 2%;
     text-align: right;
 }
+
+.anb {
+    min-height: 75px;
+    border-style: solid;
+    border-width: 0.05%;
+    border-color: black;
+    border-radius: 5px;
+    margin: 2%;
+}

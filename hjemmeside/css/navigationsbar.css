@@ -1,8 +1,7 @@
 .navbar {
     margin: 0;
     overflow: hidden;
-    background-color: rgb(165, 193, 236);
-    background-image: linear-gradient(to right, red, orange,yellow);
+    background-color: rgba(202,131,171);
 }
     .navbar li {
     display: inline;
