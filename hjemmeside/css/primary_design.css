@@ -1,57 +1,29 @@
 body {
     margin: 0%;
-    background-color: rgb(114, 114, 114);
-  }
+    background-color: rgb(236, 232, 232);
+}
 
-.info-area{
+.info-area {
     margin: auto;
 }
-.info-area > *{
+
+.info-area>* {
     padding-left: 2%;
     padding-bottom: 1%;
-
 }
-h1{
+
+h1 {
     margin: 1%;
     padding-top: 1%;
 }
-h2{
+
+h2 {
     margin-bottom: 0%;
 }
-.info-area p{
+
+.info-area p {
     margin-top: 0%;
 }
-
-#sections {
-    display: grid;
-    grid-template-columns: 65% 25% 10%;
-    padding-right: 0.5%;
-}
-
-    #om_mig {
-        background-color: rgb(252, 115, 115);
-        background-image: linear-gradient(to right, red, yellow);
-    }
-    
-    #jeg_tilbyder {
-        background-color: rgb(248, 248, 121);
-        background-image: linear-gradient(to right, yellow, rgb(103, 190, 103));
-    }
-    
-    #certifikater {
-        background-color: rgb(153, 255, 150);
-        background-image: linear-gradient(to right, rgb(103, 190, 103), rgb(126, 207, 209));
-    }
-    
-    #anbefalinger, .anb {
-        background-color: rgb(180, 252, 214);
-        background-image: linear-gradient(to right, rgb(126,207,209),rgb(83, 83, 206));
-    }
-    
-    #kontakt {
-        background-color: rgb(139, 139, 255);
-        background-image: linear-gradient(to right, rgb(83, 83, 206), rgb(169, 68, 169));
-    }
 
 a {
     color: black;
