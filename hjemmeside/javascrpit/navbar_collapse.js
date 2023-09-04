@@ -1,14 +1,10 @@
-var coll = document.getElementsByClassName("collapsible");
-var i;
+document.getElementById('menu-toggle').addEventListener('change', function() {
+  const navBar = document.getElementById('nav-bar');
+  if (this.checked) {
+      navBar.style.left = '0';
+      navBar.style.boxShadow = '5px 0px 4px 0px rgba(0, 0, 0, 0.5)';
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
+  } else {
+      navBar.style.left = '-250px';
+  }
+});
