@@ -17,7 +17,7 @@
 
     #index a {
         width: 75%;
-        padding: 1%;
+        padding: 10%;
         margin: 0 auto;
     }
 
@@ -31,6 +31,7 @@
 
 @media screen and (min-width: 720px) {
     #index {
+        padding-top: 0%;
         flex-direction: row;
     }
 
