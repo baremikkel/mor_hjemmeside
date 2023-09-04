@@ -1,19 +1,22 @@
+
 @media screen and (max-width: 719px) {
+
+    #phone {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(202, 131, 171);
+    }
 
     input[type="checkbox"] {
         display: none;
     }
 
-    #phone {
-        min-width: 100%;
-        background-color: blue;
-    }
 
     #menu-icon {
         font-size: 30px;
         cursor: pointer;
         position: absolute;
-        top: 20px;
+        top: 5px;
         left: 20px;
         z-index: 2;
     }
@@ -27,13 +30,12 @@
         background-color: rgb(202, 131, 171);
         box-shadow: 10px, 10px, 10px darkgrey;
         transition: left 0.3s ease;
-        
     }
 
     #nav-bar .navbar {
         list-style: none;
         padding: 0;
-        padding-top: 50%;
+        padding-top: 35%;
     }
 
     #nav-bar .navbar a {
@@ -48,25 +50,38 @@
     input[type="checkbox"]:checked+#nav-bar {
         left: 0;
     }
-}
 
-@media screen and (min-width: 720px) {
-    #menu-toggle, #menu-icon {
+    #name {
         display: none;
     }
 
+    #phone > img {
+        max-width: 20%;
+        height: auto;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    #phone >* {
+        display: none;
+    }
+
+    #nav-bar {
+        width: 100%;
+        background-color: rgb(202, 131, 171);
+        overflow: hidden;
+    }
     .navbar {
         margin: 0;
-        overflow: hidden;
-        background-color: rgb(202, 131, 171);
         display: block;
+        max-width: 75%;
     }
 
     .navbar li {
         display: inline;
         float: left;
-        padding: 1% 2%;
-
+        padding: 1.7% 2%;
     }
 
     .navbar li:hover {
@@ -81,4 +96,11 @@
         text-decoration: none;
         color: black;
     }
+
+    #name {
+        float: right;
+        overflow: hidden;
+        margin: 1% 2%;
+    }
+
 }
