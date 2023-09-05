@@ -19,6 +19,7 @@
     #index a {
         width: 75%;
         padding: 5%;
+        padding-bottom: 0.5%;
     }
 
     .index_site>* {
