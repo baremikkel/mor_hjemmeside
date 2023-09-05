@@ -1,7 +1,9 @@
-p{
+p {
+    padding-top: 1%;
     font-style: italic;
     margin-bottom: 5%;
 }
+
 .info-area h3 {
     font-style: oblique;
     margin-top: 0.5%;
@@ -17,4 +19,16 @@ p{
     border-color: black;
     border-radius: 5px;
     margin: 2%;
+    background-color: rgb(246, 223, 240);
+
+}
+
+@media screen and (min-width:720px) {
+    .info-area h1 {
+        margin-left: 15% !important;
+    }
+    .anb {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
