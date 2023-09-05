@@ -26,27 +26,27 @@
         text-align: center;
     }
 
-@media screen and (min-width: 720px) {
-    #index {
-        padding-top: 0%;
-        flex-direction: row;
-    }
+    @media screen and (min-width: 720px) {
+        #index {
+            padding-top: 0%;
+            flex-direction: row;
+        }
 
-    #index a {
-        width: 20%;
-        padding: 0.5%;
-    }
+        #index a {
+            width: 20%;
+            padding: 0.5%;
+        }
 
-    .index_site {
-        min-height: 300px;
-    }
+        .index_site {
+            min-height: 300px;
+        }
 
-    .index_site {
-        background-color: white;
-    }
+        .index_site {
+            background-color: white;
+        }
 
-    .index_site:hover {
-        background-color: rgba(202, 131, 171, 0.6);
-    }
+        .index_site:hover {
+            background-color: rgba(202, 131, 171, 0.6);
+        }
 
-}
+    }
