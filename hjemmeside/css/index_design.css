@@ -48,5 +48,9 @@
         .index_site:hover {
             background-color: rgba(202, 131, 171, 0.6);
         }
+        
+        #thumbnail {
+            max-height: 150px;
+        }
 
     }
