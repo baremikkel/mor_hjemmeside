@@ -10,10 +10,11 @@
 }
 #aboutme {
     margin: 0%;
-    max-width: 15%;
+    max-width: clamp(6em,10%,20%);
     max-height: auto;
     display: block;
     float: right;
+    padding: clamp(1%,1em,2em);
 }
 
 #thumbnail {

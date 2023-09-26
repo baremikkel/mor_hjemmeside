@@ -4,6 +4,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 0.5em ;
+        margin-left: clamp(4em, 0.5em, 0.5em);
+        margin-right: clamp(3em, 0.5em, 0.5em);
     }
 
     .index_site {
@@ -16,7 +19,7 @@
     }
 
     #index a {
-        width: clamp(20%,75%,75%);
+        width: clamp(5em, 295px);
         padding: clamp(0.5,5%);
         padding-bottom: 0.5%;
     }
