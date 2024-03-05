@@ -1,0 +1,13 @@
+    #index>* {
+      margin-left: 6vw;
+      margin-right: 6vw;
+    }
+	#index>h3 {
+      margin-top: 1vh;
+  	}
+@media screen and (min-width: 720px){
+  #index>h3 {
+      margin-top: 0%;
+  	}
+}
+  

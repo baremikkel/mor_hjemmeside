@@ -1,0 +1,40 @@
+#om_mig{
+  	width: 50vw;
+    float: left ;
+}
+
+#aboutme {
+    max-width: 15%;
+    max-height: auto;
+    display: block;
+    float: right;
+  	border-radius: 25%;
+}
+h1 {
+  padding-left: 20vw;
+}
+#container {
+  margin: 20%;
+  margin-top: 2%;
+  min-height: 75px
+}
+@media screen and (max-width:719px) {
+  #aboutme {
+    padding-left: 6vw;
+    max-width: 45vw;
+    height: auto;
+    margin: auto;
+    float: left;
+  }
+  #container {
+    margin: 0%;
+  }
+  h1 {
+  padding-left: 6vw;
+}
+  #om_mig{
+    width: auto;
+    margin-right: 6vw;
+    margin-left: 6vw;
+  }
+}

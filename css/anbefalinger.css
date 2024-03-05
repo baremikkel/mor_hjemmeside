@@ -1,0 +1,19 @@
+p {
+    padding-top: 1%;
+    font-style: italic;
+    margin-bottom: 5%;
+}
+
+.info-area h3 {
+    font-style: oblique;
+    margin-top: 0.5%;
+    padding: 0%;
+    padding-right: 2%;
+    text-align: right;
+}
+
+@media screen and (min-width:720px) {
+    .info-area h1 {
+        margin-left: 15% !important;
+    }
+}

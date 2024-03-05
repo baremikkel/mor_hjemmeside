@@ -1,0 +1,33 @@
+body {
+    margin: 0%;
+}
+.info-area {
+  margin: 0px 25vw;
+  width: 50%
+}
+ p {
+  font-family:"Calibri", sans-serif;
+}
+@media screen and (max-width:720px){
+  .info-area {
+  width: auto;
+  margin: 0px 6vw;
+  margin-bottom: 100px;
+}
+}
+h1 {
+    margin: 1%;
+    padding-top: 1%;
+}
+
+h2 {
+    margin-bottom: 0%;
+}
+
+.info-area p {
+    margin-top: 0%;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
