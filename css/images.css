@@ -1,10 +1,12 @@
 .cirtificate {
-    max-width: 30%;
-    max-height: 25%;
+    max-width: 50%;
+    max-height: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2%;
 }
+
 #clickable {
   transition: transform 0.3s ease;
 }
@@ -14,14 +16,14 @@
   top: 50%;
   left: 50%;
   z-index: 2;
-  transform: translate(-50%, -50%) scale(3);
+  transform: translate(-50%, -50%) scale(2);
 }
 
 #clicable.enlarged.sideways_{
   top: 25%;
   left: 50%;
   z-index: 2;
-  transform: translate(-25%, -50%) scale(3);
+  transform: translate(-25%, -50%) scale(2);
 }
 
 #prettyimg {
