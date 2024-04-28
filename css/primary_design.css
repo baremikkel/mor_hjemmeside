@@ -8,6 +8,9 @@ body {
  p {
   font-family:"Calibri", sans-serif;
 }
+li{
+  font-family:"Calibri", sans-serif;
+}
 @media screen and (max-width:720px){
   .info-area {
   width: auto;

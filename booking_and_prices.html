@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../javascript/jquery.js"></script>
+    <link rel="stylesheet" href="../css/booking.css" />
+    <title>Kontakt</title>
+  </head>
+
+  <body>
+    <div id="navbar"></div>
+    <div class="info-area">
+      <h1>Priser og booking:</h1>
+      <p>
+        Coaching............................. kr 850,- <br />
+        Terapi.................................. kr 850,- <br />
+        Hypnose.............................. kr 850,- <br />
+        Hjemme session tillæg........ kr 200,- <br />
+        (Indenfor 20 km radius af min bopæl) <br /><br />
+
+        Afregning skal ske efter endt session via Mobilepay eller kontant.
+        <br /><br />
+        Jeg kombinerer coaching, terapi og hypnose alt efter hvad jeg
+        vurderer der skal til, i den enkelte situation.<br><br>
+        Hvis du ikke kan finde en tid der passer dig, så kontakt mig.
+      </p>
+      <!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/weinreich-coaching/coaching-session?hide_gdpr_banner=1"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->
+
+
+<!-- Calendly badge widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/weinreich-coaching/coaching-session', text: 'Book en tid her', color: '#95A58D', textColor: '#000000', branding: undefined }); }</script>
+<!-- Calendly badge widget end -->
+    </div>
+    <script>
+      $(function () {
+        $("#navbar").load("navbar.html");
+      });
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -54,8 +54,8 @@
     }
 
     #nav-bar .navbar li {
-        padding: 10px 0;
-        text-align: center;
+        padding: 10px 15px;
+        text-align: left;
     }
 
     input[type="checkbox"]:checked+#nav-bar {

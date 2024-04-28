@@ -1,0 +1,19 @@
+.calendly-inline-widget {
+   height: 918px;
+}
+.calendly-badge-widget {
+   display: none;
+}
+.google_map{
+   border: 0;
+   height: 250px;
+}
+
+@media screen and (max-width: 719px) {
+   .calendly-inline-widget{
+      display: none;
+   }
+   .calendly-badge-widget {
+      display: block;
+   }
+}
