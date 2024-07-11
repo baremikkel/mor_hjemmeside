@@ -1,9 +1,9 @@
 <?php
-$host = "mysql78.unoeuro.com";
-$port = "3306";
-$username = "weinreich_coaching_dk";
-$password = "D6mgFzbarteAycGw5EBR";
-$database = "weinreich_coaching_dk_db";
+$host = "host";
+$port = "port";
+$username = "username";
+$password = "password";
+$database = "database";
 
 $conn = new mysqli($host, $username, $password, $database, $port);
 mysqli_set_charset($conn, "utf8mb4");
