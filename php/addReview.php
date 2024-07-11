@@ -1,11 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
-    $servername = "mysql78.unoeuro.com";
-    $username = "weinreich_coaching_dk";
-    $password = "D6mgFzbarteAycGw5EBR";
-    $dbname = "weinreich_coaching_dk_db";
-    $port = "3306"; 
+    $servername = "servername";
+    $username = "username";
+    $password = "password";
+    $dbname = "dbname";
+    $port = "port"; 
 
     $conn = new mysqli($servername, $username, $password, $dbname, $port);
 
